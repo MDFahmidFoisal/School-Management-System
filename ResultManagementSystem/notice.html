@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notices | School Management System</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+    <header>
+        <h1>School Notices</h1>
+    </header>
+
+    <section class="notice-board">
+        <h2>Notice Board</h2>
+        <ul id="noticeList">
+            <!-- Existing notices will go here -->
+            <li><strong>payment:</strong>School payment deadline at 03 November 2024.</li>
+            <li><strong>Bangla Exam:</strong> Tommorow at 8 AM,Room no:4008</li>
+        </ul>
+    </section>
+
+    <section class="add-notice">
+        <h2>Add a New Notice</h2>
+        <form id="noticeForm">
+            <label for="noticeTitle">Title:</label>
+            <input type="text" id="noticeTitle" required>
+            
+            <label for="noticeDescription">Description:</label>
+            <textarea id="noticeDescription" rows="4" required></textarea>
+            
+            <button type="submit">Add Notice</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; Mahin Reza </p>
+    </footer>
+
+    <script src="script2.js"></script>
+</body>
+</html>
